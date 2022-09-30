@@ -26,12 +26,12 @@ public class PlayerMovement : MonoBehaviour
         // by8yr speed el animator el 3mlnah
         // kelmet Speed mktooba hena zy el parameters henak
         // by5leeha equal horizontalMove
-        // animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
         
         if (Input.GetButtonDown("Jump"))    // lw das jump, h5leeha true w kda
         {
             jump = true;
-            // animator.SetBool("IsJumping", true);
+            animator.SetBool("IsJumping", true);
         }
 
 
@@ -72,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnLand()
     {
         // lw nzl 3l 2ard, yb2a howa not jumping, 8yr el animation
-        // animator.SetBool("IsJumping", false);
+        animator.SetBool("IsJumping", false);
     }
 
     public void OnCrouching(bool isCrouching)
