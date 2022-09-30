@@ -1019,6 +1019,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cc16f7139272fd42804af9d063c9bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHealth: {fileID: 2067513020}
+  fillImage: {fileID: 1634635166}
 --- !u!1 &958456277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1597,3 +1599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a75d00244814b544ca9099b77f45d8a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
+  respawnPoint: {x: 0, y: 0, z: 0}
