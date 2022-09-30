@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1037188964725768858}
   - component: {fileID: 9019979478081400876}
   - component: {fileID: 628265190987068355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Asteroid 4
   m_TagString: Asteroids
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

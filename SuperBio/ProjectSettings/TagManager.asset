@@ -14,7 +14,7 @@ TagManager:
   - UI
   - Player
   - Environment
-  - 
+  - Asteroids
   - 
   - 
   - 
@@ -39,6 +39,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BackGround
+    uniqueID: 1027452691
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
