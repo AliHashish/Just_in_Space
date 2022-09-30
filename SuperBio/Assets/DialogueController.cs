@@ -27,10 +27,10 @@ public class DialogueController : MonoBehaviour
     {
         //we can make a simple chat box once i click on the button it show the dialogue box
         //and make button on  dialogue box once it is pressed it exits the dialogue box
-        //for now i will make when spacebar is pressed
+        //for now i will make when enter is pressed
         //i need to make this pop at the start of the game 
         // i need to generalize more this dialogue box in order to make it usable everywhere
-        if(first && Input.GetKeyDown(KeyCode.Space))
+        if(first && Input.GetKeyDown(KeyCode.Return))
         {
             first = false;
             NextSentence();
@@ -61,7 +61,7 @@ public class DialogueController : MonoBehaviour
         {
             DialogueText.text +=c;
             yield return new WaitForSeconds(DialogueSpeed);
-            if(!first && Input.GetKeyDown(KeyCode.Space))
+            if(!first && Input.GetKeyDown(KeyCode.Return))
             {
                 first = true;
                 // Debug.Log("Testing");
