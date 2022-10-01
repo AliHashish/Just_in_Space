@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NextScreen : MonoBehaviour
 {
@@ -24,6 +25,6 @@ public class NextScreen : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);     // waits for a few seconds before changing level
                                                     // This time can be utilized to play sound effects
-        // SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1)%3);       // gets the next level
+        SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1)%8);       // gets the next level
     }
 }

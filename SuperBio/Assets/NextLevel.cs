@@ -27,6 +27,6 @@ public class NextLevel : MonoBehaviour
     {
         yield return new WaitForSeconds(0.85f);     // waits for 0.85 seconds before changing level
                                                     // This time can be utilized to play sound effects
-        // SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1)%3);       // gets the next level
+        SceneManager.LoadScene((SceneManager.GetActiveScene().buildIndex + 1)%8);       // gets the next level
     }
 }
