@@ -11093,6 +11093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a75d00244814b544ca9099b77f45d8a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  radiationProtection: 0
+  abilityToHibernate: 0
   health: 100
   maxHealth: 100
   respawnPoint: {x: 0, y: 0, z: 0}
