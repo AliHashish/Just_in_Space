@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerVars : MonoBehaviour
 {
+    public bool radiationProtection = false;
+    public bool abilityToHibernate = false;
     public float health = 100f;
     public float maxHealth = 100f;
     public Vector3 respawnPoint;       // where to spawn upon death
