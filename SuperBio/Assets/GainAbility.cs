@@ -9,7 +9,6 @@ public class GainAbility : MonoBehaviour
     public UnityEvent customEvent;
     bool firstTime = true;              // Ensures event invokes only once
     bool triggered = false;
-    public PlayerVars playerVars;         // To access some variables
 
     // Start is called before the first frame update
     void Start()
