@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d21f6ece3b46479f0c328f8c6007e0, type: 3}
+  m_Name: Robotic
+  m_EditorClassIdentifier: 
+  colorMode: 3
+  topLeft: {r: 0.8301887, g: 0.104948364, b: 0.14003783, a: 1}
+  topRight: {r: 0.83137256, g: 0.105882354, b: 0.14117648, a: 1}
+  bottomLeft: {r: 0.38679248, g: 0.12917407, b: 0.16544072, a: 1}
+  bottomRight: {r: 0.5283019, g: 0.18141685, b: 0.21846288, a: 1}

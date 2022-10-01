@@ -6,6 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: cc306b2cc659ffd4cbf4e75ec93ca25c
+  - enabled: 1
     path: Assets/Scenes/Earth.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Mars_Facts.unity
+    guid: 8392de6c56d6c9846830a27005127929
+  - enabled: 1
+    path: Assets/Scenes/Mars.unity
+    guid: 76e05b4db2b917a47ad79344ae291c8f
+  - enabled: 1
+    path: Assets/Scenes/Uranus_Facts.unity
+    guid: cca3613e0a059b847b723ef8b09f1f17
+  - enabled: 1
+    path: Assets/Scenes/Uranus.unity
+    guid: 155a69aba0b1f3547aba018e7b3d4552
+  - enabled: 1
+    path: Assets/Scenes/Earth_Facts.unity
+    guid: 77740632796ee9a49a9d922907099b9f
+  - enabled: 1
+    path: Assets/Scenes/BackToEarth.unity
+    guid: ca82366edc1d29647866dfecc4ae6fdf
   m_configObjects: {}
